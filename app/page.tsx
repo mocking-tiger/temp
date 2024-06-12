@@ -6,11 +6,11 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="bg-white h-screen">
+    <main className="bg-white h-screen p-5">
       <Link href={"/example1"}>예제1</Link>
       {/* <Gradient /> */}
       {/* <Animation /> */}
-      {/* <SelectComponent /> */}
+      <SelectComponent />
     </main>
   );
 }
