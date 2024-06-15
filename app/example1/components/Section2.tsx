@@ -16,7 +16,7 @@ export default function Section2() {
             it.
           </p>
         </div>
-        <div className="mt-20 grid grid-rows-3 grid-cols-2">
+        <div className="mt-20 grid grid-rows-3 grid-cols-2 px-20">
           <div className="row-span-3">
             <Phone />
           </div>
