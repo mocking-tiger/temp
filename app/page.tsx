@@ -2,6 +2,7 @@ import Gradient from "@/components/Gradient";
 import Animation from "@/components/Animation";
 import SelectComponent from "@/components/Select";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       {/* <Gradient /> */}
       {/* <Animation /> */}
       {/* <SelectComponent /> */}
+      <Image src="/test.svg" width={40} height={40} alt="" />
     </main>
   );
 }
