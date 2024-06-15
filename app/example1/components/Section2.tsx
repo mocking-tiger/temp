@@ -27,7 +27,7 @@ export default function Section2() {
               <h3 className="mt-6 text-lg font-semibold text-white">
                 Invite friends for better returns
               </h3>
-              <p>
+              <p className="mt-2 text-sm text-gray-400">
                 For every friend you invite to Pocket, you get insider
                 notifications 5 seconds sooner. And it’s 10 seconds if you
                 invite an insider.
@@ -41,7 +41,7 @@ export default function Section2() {
               <h3 className="mt-6 text-lg font-semibold text-white">
                 Notifications on stock dips
               </h3>
-              <p>
+              <p className="mt-2 text-sm text-gray-400">
                 Get a push notification every time we find out something that’s
                 going to lower the share price on your holdings so you can sell
                 before the information hits the public markets.
@@ -55,7 +55,7 @@ export default function Section2() {
               <h3 className="mt-6 text-lg font-semibold text-white">
                 Invest what you want
               </h3>
-              <p>
+              <p className="mt-2 text-sm text-gray-400">
                 We hide your stock purchases behind thousands of anonymous
                 trading accounts, so suspicious activity can never be traced
                 back to you.
