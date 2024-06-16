@@ -22,8 +22,12 @@ export default function Section2() {
           </div>
           <div className="relative rounded-2xl transition-colors hover:bg-gray-800/50 cursor-pointer">
             <div className="p-8 flex flex-col gap-5">
-              {/* <Image src="/next.svg" width={130} height={100} alt="icon" /> */}
-              <div className="w-6 h-6 bg-white rounded-full" />
+              <Image
+                src="/section2-icon1.svg"
+                width={32}
+                height={32}
+                alt="icon"
+              />
               <h3 className="mt-6 text-lg font-semibold text-white">
                 Invite friends for better returns
               </h3>
@@ -36,8 +40,12 @@ export default function Section2() {
           </div>
           <div className="relative rounded-2xl transition-colors hover:bg-gray-800/50 cursor-pointer">
             <div className="p-8 flex flex-col gap-5">
-              {/* <Image src="/next.svg" width={130} height={100} alt="icon" /> */}
-              <div className="w-6 h-6 bg-white rounded-full" />
+              <Image
+                src="/section2-icon2.svg"
+                width={32}
+                height={32}
+                alt="icon"
+              />
               <h3 className="mt-6 text-lg font-semibold text-white">
                 Notifications on stock dips
               </h3>
@@ -50,8 +58,12 @@ export default function Section2() {
           </div>
           <div className="relative rounded-2xl transition-colors hover:bg-gray-800/50 cursor-pointer">
             <div className="p-8 flex flex-col gap-5">
-              {/* <Image src="/next.svg" width={130} height={100} alt="icon" /> */}
-              <div className="w-6 h-6 bg-white rounded-full" />
+              <Image
+                src="/section2-icon3.svg"
+                width={32}
+                height={32}
+                alt="icon"
+              />
               <h3 className="mt-6 text-lg font-semibold text-white">
                 Invest what you want
               </h3>
