@@ -2,6 +2,7 @@ import Gradient from "@/components/Gradient";
 import Animation from "@/components/Animation";
 import SelectComponent from "@/components/Select";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
