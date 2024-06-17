@@ -24,6 +24,8 @@ const config: Config = {
       animation: {
         "spin-slow": "spin 5s linear infinite",
         "spin-slow-reverse": "spin-reverse 6s linear infinite",
+        "move-right": "move-right 10s linear infinite",
+        "move-right2": "move-right2 10s linear infinite",
       },
       keyframes: {
         "spin-reverse": {
@@ -32,6 +34,22 @@ const config: Config = {
           },
           to: {
             transform: "rotate(-360deg)",
+          },
+        },
+        "move-right": {
+          from: {
+            transform: "translateX(0%)",
+          },
+          to: {
+            transform: "translateX(100%)",
+          },
+        },
+        "move-right2": {
+          from: {
+            transform: "translateX(-100%)",
+          },
+          to: {
+            transform: "translateX(0%)",
           },
         },
       },
