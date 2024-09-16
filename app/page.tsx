@@ -4,6 +4,7 @@ import SelectComponent from "@/components/Select";
 import Link from "next/link";
 import Image from "next/image";
 import InfiniteStripe from "@/components/InfiniteStripe";
+import UpperInput from "@/components/UpperInput";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       {/* <Animation /> */}
       {/* <SelectComponent /> */}
       <InfiniteStripe />
+      <UpperInput />
     </main>
   );
 }
